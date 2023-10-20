@@ -1,0 +1,19 @@
+{
+  "name": "vue-service-bay",
+  "version": "0.0.1",
+  "description": "Small utility to modify Vue components in bulk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "ast",
+    "static analysis",
+    "code generation",
+    "code refactor"
+  ],
+  "author": "baseballyama",
+  "license": "MIT"
+}

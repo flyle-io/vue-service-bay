@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "execute": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vue-service-bay": "*"
+  }
+}

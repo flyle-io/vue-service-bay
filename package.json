@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "type:check": "tsc --noEmit",
+    "format:check": "prettier --cache --check .",
+    "format:fix": "prettier --cache --write .",
+    "check:all": "pnpm type:check && pnpm format:check"
+  },
+  "author": "baseballyama",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/strictest": "2.0.2",
+    "prettier": "3.0.3",
+    "typescript": "5.2.2"
+  }
+}
