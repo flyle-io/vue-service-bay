@@ -28,4 +28,4 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: check project
-        run: pnpm check:all
+        run: cd packages/vue-service-bay && pnpm build && pnpm check:all
