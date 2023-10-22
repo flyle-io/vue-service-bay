@@ -3,7 +3,6 @@
   "license": "MIT",
   "scripts": {
     "update:version": "changeset version",
-    "pre:release": "cp README.md packages/vue-service-bay/README.md && rm -rf packages/vue-service-bay/src",
     "release": "changeset publish"
   },
   "devDependencies": {
