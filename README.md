@@ -73,6 +73,41 @@ Execute your migration runner script:
 node index.js
 ```
 
+## COLUMN: How to read AST effectively
+
+ASTs are complicated and bizarre for the first-time viewer. On the other hand, if you can master ASTs, they can be a great weapon for refactoring and other language processing programming. Here, we will explain how to understand AST in a simple way.
+
+First, programming languages are often treated as an Abstract Syntax Tree (AST) for ease of understanding; an AST is a data structure widely used by compilers to represent the structure of program code.
+
+This library also uses ASTs for refactoring. Simply put, a program is turned into an AST, and then the AST is manipulated and written back into the program again.
+
+Fortunately, there are tools out there to easily understand AST.
+That is [AST Explorer](https://astexplorer.net/).
+
+Using AST Explorer, we can automatically jump to the corresponding AST by clicking anywhere. This makes it easy to find out information about the Node we want to process and its surrounding Nodes, including its parent.
+
+Lastly, we will explain how to view ASTs for each language.
+
+### HTML
+
+We use `htmlparser2` for our HTML parser. At the time of the original implementation of this library, `htmlparser2` was the only major parser that could correctly write ASTs back to HTML.
+
+To view ASTs parsed by `htmlparser2`, select the HTML language and `htmlparser2` in the AST Explorer.
+
+### JavaScript / TypeScript
+
+We use `recast` for our JavaScript / TypeScript parser. At the time of the original implementation of this library, `acorn` was the only major parser that could correctly write ASTs back to HTML.
+We first tried acorn but could not adopt it because acorn ignores comments. We also wanted to support TypeScript, so we finally chose `recast`.
+We also parse JavaScript as TypeScript. This is because TypeScript is a superset of JavaScript.
+
+To view ASTs parsed by `recast`, select the JavaScript language and `recast` in the AST Explorer. And Press config button and select `typescript` as parser.
+
+### CSS / SCSS
+
+We use `postcss` for our CSS / SCSS parser.
+
+To view ASTs parsed by `PostCSS`, select the CSS and `postcss` in the AST Explorer.
+
 ## Supported Languages
 
 Vue Service Bay can be used with any language for migrations that do not require AST manipulation. However, if you're using AST, the following languages are currently supported. If you'd like to add support for other languages, feel free to submit a PR.

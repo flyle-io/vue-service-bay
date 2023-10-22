@@ -1,7 +1,7 @@
 {
   "name": "vue-service-bay",
   "version": "0.0.1",
-  "description": "Small utility to modify Vue components in bulk",
+  "description": "Your One-Stop Solution for Vue.js Refactoring",
   "main": "./dist/index.js",
   "type": "module",
   "types": "./dist/index.d.ts",
