@@ -6,7 +6,7 @@ export { is as tsNodeIs } from "@babel/types";
 export { getAllVueFiles } from "./helper.js";
 export type { VueFile } from "./parse.js";
 export { parseVueFile } from "./parse.js";
-export { save } from "./save.js";
+export { save, saveAsString } from "./save.js";
 export {
   walk as walkTemplate,
   manipulate as manipulateHtml,

@@ -55,15 +55,15 @@ The `-D` flag installs the package as a development dependency.
 
 ### Create a Migration Runner File
 
-First, you'll need to create a migration runner script. For more details, please refer to the [index.js](./packages/examples/migration/index.js) in our examples.
+First, you'll need to create a migration runner script. For more details, please refer to the [index.js](https://github.com/flyle-io/vue-service-bay/tree/main/packages/examples/migration/index.js) in our examples.
 
 ### Implement the Runner Script
 
 Next, you'll need to implement specific migration logic. See our examples for more details:
 
-- [Regexp example](./packages/examples/migration/001_RegexpExamples.js)
-- [Ast example](./packages/examples/migration/002_AstManipulateExamples.js)
-- [MagicString example](./packages/examples/migration/003_MagicStringExamples.js)
+- [Regexp example](https://github.com/flyle-io/vue-service-bay/tree/main/packages/examples/migration/001_RegexpExamples.js)
+- [Ast example](https://github.com/flyle-io/vue-service-bay/tree/main/packages/examples/migration/002_AstManipulateExamples.js)
+- [MagicString example](https://github.com/flyle-io/vue-service-bay/tree/main/packages/examples/migration/003_MagicStringExamples.js)
 
 ### Run the Migration Runner
 
