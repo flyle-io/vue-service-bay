@@ -33,6 +33,9 @@ jobs:
       - name: build
         run: cd packages/vue-service-bay && pnpm build
 
+      - name: Remove src directory
+        run: rm -rf packages/vue-service-bay/src
+
       - name: Copy README.md
         run: cp README.md packages/vue-service-bay/README.md
 
