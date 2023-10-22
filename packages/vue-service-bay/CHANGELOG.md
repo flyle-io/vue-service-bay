@@ -1,5 +1,11 @@
 # vue-service-bay
 
+## 0.2.0
+
+### Minor Changes
+
+- [`c1b48d9`](https://github.com/flyle-io/vue-service-bay/commit/c1b48d9c8a167b0f3131ad37b10ee7d1e36a5160) Thanks [@baseballyama](https://github.com/baseballyama)! - feat: Added API to receive migration results as strings
+
 ## 0.1.0
 
 ### Minor Changes
