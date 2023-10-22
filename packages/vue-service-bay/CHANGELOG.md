@@ -1,5 +1,11 @@
 # vue-service-bay
 
+## 0.2.2
+
+### Patch Changes
+
+- [`722588b`](https://github.com/flyle-io/vue-service-bay/commit/722588b084685ac05cf5cfefd04b63af1510e484) Thanks [@baseballyama](https://github.com/baseballyama)! - chore: remove unnecessary files from npm
+
 ## 0.2.1
 
 ### Patch Changes
