@@ -1,5 +1,11 @@
 # vue-service-bay
 
+## 0.2.1
+
+### Patch Changes
+
+- [`2e2863d`](https://github.com/flyle-io/vue-service-bay/commit/2e2863da4fef865ba36a122952a78d53b1453cda) Thanks [@baseballyama](https://github.com/baseballyama)! - chore: fix README
+
 ## 0.2.0
 
 ### Minor Changes
