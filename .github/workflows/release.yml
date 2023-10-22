@@ -33,18 +33,12 @@ jobs:
       - name: build
         run: cd packages/vue-service-bay && pnpm build
 
-      - name: remove needless files
-        run: |
-          cd packages/vue-service-bay
-          rm -rf src
-          cp ../../README.md .
-
       - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@v1
         with:
           version: pnpm update:version
-          publish: pnpm release
+          publish: pnpm pre:release && pnpm release
           commit: "chore: release vue-service-bay"
           title: "chore: release vue-service-bay"
         env:
