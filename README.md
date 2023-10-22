@@ -65,6 +65,8 @@ Next, you'll need to implement specific migration logic. See our examples for mo
 - [Ast example](https://github.com/flyle-io/vue-service-bay/tree/main/packages/examples/migration/002_AstManipulateExamples.js)
 - [MagicString example](https://github.com/flyle-io/vue-service-bay/tree/main/packages/examples/migration/003_MagicStringExamples.js)
 
+(MagicString is a convenient way to make changes to ASTs. For more information, visit https://github.com/Rich-Harris/magic-string)
+
 ### Run the Migration Runner
 
 Execute your migration runner script:
