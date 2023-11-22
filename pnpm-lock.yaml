@@ -91,8 +91,8 @@ importers:
         specifier: 0.23.4
         version: 0.23.4
       zimmerframe:
-        specifier: 1.0.0
-        version: 1.0.0
+        specifier: 1.1.0
+        version: 1.1.0
     devDependencies:
       publint:
         specifier: 0.2.5
@@ -3339,6 +3339,6 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /zimmerframe@1.0.0:
-    resolution: {integrity: sha512-H6qQ6LtjP+kDQwDgol18fPi4OCo7F+73ZBYt2U9c1D3V74bIMKxXvyrN0x+1I7/RYh5YsausflQxQR/qwDLHPQ==}
+  /zimmerframe@1.1.0:
+    resolution: {integrity: sha512-+AmV37r9NPUy7KcuG0Fde9AAFSD88kN5pnqvD7Pkp5WLLK0jct7hAtIDXXFDCRk3l5Mc1r2Sth3gfP2ZLE+/Qw==}
     dev: false
