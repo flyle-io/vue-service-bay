@@ -10,7 +10,7 @@
     "@changesets/cli": "2.27.1",
     "@tsconfig/strictest": "2.0.2",
     "@types/node": "20.10.8",
-    "prettier": "3.0.3",
+    "prettier": "3.2.1",
     "typescript": "5.3.3"
   }
 }
