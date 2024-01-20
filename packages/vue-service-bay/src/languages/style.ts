@@ -12,12 +12,12 @@ import { VueBlock } from "../parse.js";
 type InferNode<T> = T extends "atrule"
   ? AtRule
   : T extends "rule"
-  ? Rule
-  : T extends "decl"
-  ? Declaration
-  : T extends "comment"
-  ? Comment
-  : never;
+    ? Rule
+    : T extends "decl"
+      ? Declaration
+      : T extends "comment"
+        ? Comment
+        : never;
 
 export const cssNodeIs = <T extends "atrule" | "rule" | "decl" | "comment">(
   type: T,
