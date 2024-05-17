@@ -45,7 +45,7 @@
     "magic-string": "0.30.10",
     "postcss": "8.4.38",
     "postcss-scss": "4.0.9",
-    "recast": "0.23.6",
+    "recast": "0.23.7",
     "zimmerframe": "1.1.2"
   }
 }
