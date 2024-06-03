@@ -88,8 +88,8 @@ importers:
         specifier: 4.0.9
         version: 4.0.9(postcss@8.4.38)
       recast:
-        specifier: 0.23.7
-        version: 0.23.7
+        specifier: 0.23.8
+        version: 0.23.8
       zimmerframe:
         specifier: 1.1.2
         version: 1.1.2
@@ -2596,8 +2596,8 @@ packages:
       strip-bom: 3.0.0
     dev: true
 
-  /recast@0.23.7:
-    resolution: {integrity: sha512-MpQlLZVpqbbxYcqEjwpRWo88sGvjOYoXptySz710RuddNMHx+wPkoNX6YyLZJlXAh5VZr1qmPrTwcTuFMh0Lag==}
+  /recast@0.23.8:
+    resolution: {integrity: sha512-D8izEmRtY34O+B5k2kgNmPx4b/be4MGPGFiNzWUGtezDCWDyj/1w1uQQvzySRzAO/b+6TD05FwGPuYR4X52sVw==}
     engines: {node: '>= 4'}
     dependencies:
       ast-types: 0.16.1
