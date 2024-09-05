@@ -82,11 +82,11 @@ importers:
         specifier: 0.30.11
         version: 0.30.11
       postcss:
-        specifier: 8.4.41
-        version: 8.4.41
+        specifier: 8.4.44
+        version: 8.4.44
       postcss-scss:
         specifier: 4.0.9
-        version: 4.0.9(postcss@8.4.41)
+        version: 4.0.9(postcss@8.4.44)
       recast:
         specifier: 0.23.9
         version: 0.23.9
@@ -889,7 +889,7 @@ packages:
       '@vue/shared': 3.4.15
       estree-walker: 2.0.2
       magic-string: 0.30.11
-      postcss: 8.4.41
+      postcss: 8.4.44
       source-map-js: 1.2.0
 
   /@vue/compiler-ssr@3.4.15:
@@ -1858,13 +1858,13 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /postcss-scss@4.0.9(postcss@8.4.41):
+  /postcss-scss@4.0.9(postcss@8.4.44):
     resolution: {integrity: sha512-AjKOeiwAitL/MXxQW2DliT28EKukvvbEWx3LBmJIRN8KfBGZbRTxNYW0kSqi1COiTZ57nZ9NW06S6ux//N1c9A==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.4.29
     dependencies:
-      postcss: 8.4.41
+      postcss: 8.4.44
     dev: false
 
   /postcss@8.4.33:
@@ -1876,8 +1876,8 @@ packages:
       source-map-js: 1.2.0
     dev: true
 
-  /postcss@8.4.41:
-    resolution: {integrity: sha512-TesUflQ0WKZqAvg52PWL6kHgLKP6xB6heTOdoYM0Wt2UHyxNa4K25EZZMgKns3BH1RLVbZCREPpLY0rhnNoHVQ==}
+  /postcss@8.4.44:
+    resolution: {integrity: sha512-Aweb9unOEpQ3ezu4Q00DPvvM2ZTUitJdNKeP/+uQgr1IBIqu574IaZoURId7BKtWMREwzKa9OgzPzezWGPWFQw==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.7
@@ -2321,7 +2321,7 @@ packages:
     dependencies:
       '@types/node': 20.14.15
       esbuild: 0.19.11
-      postcss: 8.4.41
+      postcss: 8.4.44
       rollup: 4.9.5
     optionalDependencies:
       fsevents: 2.3.3
