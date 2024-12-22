@@ -79,8 +79,8 @@ importers:
         specifier: 9.1.0
         version: 9.1.0
       magic-string:
-        specifier: 0.30.15
-        version: 0.30.15
+        specifier: 0.30.17
+        version: 0.30.17
       postcss:
         specifier: 8.4.49
         version: 8.4.49
@@ -812,7 +812,7 @@ packages:
     resolution: {integrity: sha512-SgCPUeDFLaM0mIUHfaArq8fD2WbaXG/zVXjRupthYfYGzc8ztbFbu6dUNOblBG7XLMR1kEhS/DNnfCZ2IhdDew==}
     dependencies:
       '@vitest/pretty-format': 2.0.5
-      magic-string: 0.30.15
+      magic-string: 0.30.17
       pathe: 1.1.2
     dev: true
 
@@ -874,7 +874,7 @@ packages:
       '@vue/compiler-ssr': 3.4.15
       '@vue/shared': 3.4.15
       estree-walker: 2.0.2
-      magic-string: 0.30.15
+      magic-string: 0.30.17
       postcss: 8.4.49
       source-map-js: 1.2.1
 
@@ -1551,8 +1551,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /magic-string@0.30.15:
-    resolution: {integrity: sha512-zXeaYRgZ6ldS1RJJUrMrYgNJ4fdwnyI6tVqoiIhyCyv5IVTK9BU8Ic2l253GGETQHxI4HNUwhJ3fjDhKqEoaAw==}
+  /magic-string@0.30.17:
+    resolution: {integrity: sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA==}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
 
@@ -2286,7 +2286,7 @@ packages:
       chai: 5.1.1
       debug: 4.3.6
       execa: 8.0.1
-      magic-string: 0.30.15
+      magic-string: 0.30.17
       pathe: 1.1.2
       std-env: 3.7.0
       tinybench: 2.9.0
