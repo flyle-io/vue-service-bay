@@ -33,7 +33,7 @@
   "author": "baseballyama",
   "license": "MIT",
   "devDependencies": {
-    "publint": "0.2.12",
+    "publint": "0.3.1",
     "vitest": "2.1.8"
   },
   "dependencies": {
