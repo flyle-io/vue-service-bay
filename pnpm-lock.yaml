@@ -64,8 +64,8 @@ importers:
   packages/vue-service-bay:
     dependencies:
       '@babel/types':
-        specifier: 7.26.5
-        version: 7.26.5
+        specifier: 7.26.7
+        version: 7.26.7
       dom-serializer:
         specifier: 2.0.0
         version: 2.0.0
@@ -133,7 +133,7 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
     dependencies:
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
 
   /@babel/runtime@7.23.8:
     resolution: {integrity: sha512-Y7KbAP984rn1VGMbGqKmBLio9V7y5Je9GvU4rQPCPinCyNfUcToxIXl06d59URp/F3LwinvODxab5N/G6qggkw==}
@@ -142,8 +142,8 @@ packages:
       regenerator-runtime: 0.14.1
     dev: true
 
-  /@babel/types@7.26.5:
-    resolution: {integrity: sha512-L6mZmwFDK6Cjh1nRCLXpa6no13ZIioJDz7mdkzHv399pThrTa/k0nUlNaenOeh2kWu/iaOQYElEpKPUswUa9Vg==}
+  /@babel/types@7.26.7:
+    resolution: {integrity: sha512-t8kDRGrKXyp6+tjUh7hw2RLyclsW4TRoRvRHtSyAX9Bb5ldlFh+90YAYY6awRXrlB4G5G2izNeGySpATlFzmOg==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/helper-string-parser': 7.25.9
