@@ -95,8 +95,8 @@ importers:
         version: 1.1.2
     devDependencies:
       publint:
-        specifier: 0.3.6
-        version: 0.3.6
+        specifier: 0.3.8
+        version: 0.3.8
       vitest:
         specifier: 2.1.9
         version: 2.1.9(@types/node@20.17.23)
@@ -599,8 +599,8 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.16.0
 
-  /@publint/pack@0.1.1:
-    resolution: {integrity: sha512-TvCl79Y8v18ZhFGd5mjO1kYPovSBq3+4LVCi5Nfl1JI8fS8i8kXbgQFGwBJRXczim8GlW8c2LMBKTtExYXOy/A==}
+  /@publint/pack@0.1.2:
+    resolution: {integrity: sha512-S+9ANAvUmjutrshV4jZjaiG8XQyuJIZ8a4utWmN/vW1sgQ9IfBnPndwkmQYw53QmouOIytT874u65HEmu6H5jw==}
     engines: {node: '>=18'}
     dev: true
 
@@ -1713,12 +1713,12 @@ packages:
     hasBin: true
     dev: true
 
-  /publint@0.3.6:
-    resolution: {integrity: sha512-f6mQw/RsX8GiUaUliYWJsivveYuwIozFLe4wCWE3NGj3vBamr816pxQGN0ycVwFIoTnIeqIJb9wsN7XAS8wRCA==}
+  /publint@0.3.8:
+    resolution: {integrity: sha512-qJyxCpQFf0j0uvlr7GizYZiQgAFgePbAVRV2uecAbNIXniDD/NMSNNBL8+DxLMMjhjgPuLJ3l2GbrB0F9MwvfA==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
-      '@publint/pack': 0.1.1
+      '@publint/pack': 0.1.2
       package-manager-detector: 0.2.9
       picocolors: 1.1.1
       sade: 1.8.1
