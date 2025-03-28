@@ -34,7 +34,7 @@
   "license": "MIT",
   "devDependencies": {
     "publint": "0.3.9",
-    "vitest": "2.1.9"
+    "vitest": "3.0.7"
   },
   "dependencies": {
     "@babel/types": "7.26.10",
