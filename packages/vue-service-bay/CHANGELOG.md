@@ -1,5 +1,11 @@
 # vue-service-bay
 
+## 0.2.3
+
+### Patch Changes
+
+- [#192](https://github.com/flyle-io/vue-service-bay/pull/192) [`ed0d3e9`](https://github.com/flyle-io/vue-service-bay/commit/ed0d3e98bc173523a546dfad4b0eb84635b6d5f2) Thanks [@baseballyama](https://github.com/baseballyama)! - chore: update deps
+
 ## 0.2.2
 
 ### Patch Changes
