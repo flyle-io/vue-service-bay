@@ -1,6 +1,6 @@
 import { parse, print } from "recast";
 import * as tsParser from "recast/parsers/typescript.js";
-import type { Node } from "@babel/types/lib";
+import type { Node } from "@babel/types";
 import { walk as zimmerframe } from "zimmerframe";
 import { VueBlock } from "../parse.js";
 

@@ -34,16 +34,16 @@
   "license": "MIT",
   "devDependencies": {
     "publint": "0.3.9",
-    "vitest": "2.1.9"
+    "vitest": "3.0.9"
   },
   "dependencies": {
-    "@babel/types": "7.26.10",
+    "@babel/types": "7.27.0",
     "dom-serializer": "2.0.0",
     "domhandler": "5.0.3",
-    "globby": "14.0.2",
-    "htmlparser2": "9.1.0",
+    "globby": "14.1.0",
+    "htmlparser2": "10.0.0",
     "magic-string": "0.30.17",
-    "postcss": "8.4.49",
+    "postcss": "8.5.3",
     "postcss-scss": "4.0.9",
     "recast": "0.23.11",
     "zimmerframe": "1.1.2"
