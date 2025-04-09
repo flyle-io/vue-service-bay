@@ -95,8 +95,8 @@ importers:
         version: 1.1.2
     devDependencies:
       publint:
-        specifier: 0.3.9
-        version: 0.3.9
+        specifier: 0.3.10
+        version: 0.3.10
       vitest:
         specifier: 3.0.9
         version: 3.0.9(@types/node@22.13.17)
@@ -1065,6 +1065,9 @@ packages:
   package-manager-detector@0.2.11:
     resolution: {integrity: sha512-BEnLolu+yuz22S56CU1SUKq3XC3PkwD5wv4ikR4MfGvnRVcmzXR9DwSlW2fEamyTPyXHomBJRzgapeuBvRNzJQ==}
 
+  package-manager-detector@1.1.0:
+    resolution: {integrity: sha512-Y8f9qUlBzW8qauJjd/eu6jlpJZsuPJm2ZAV0cDVd420o4EdpH5RPdoCv+60/TdJflGatr4sDfpAL6ArWZbM5tA==}
+
   path-browserify@1.0.1:
     resolution: {integrity: sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==}
 
@@ -1135,8 +1138,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  publint@0.3.9:
-    resolution: {integrity: sha512-irTwfRfYW38vomkxxoiZQtFtUOQKpz5m0p9Z60z4xpXrl1KmvSrX1OMARvnnolB5usOXeNfvLj6d/W3rwXKfBQ==}
+  publint@0.3.10:
+    resolution: {integrity: sha512-xl9X9x0iyOURsAD7IPQJAQ5TgGpozs5K8KUtqzQBSxJqtKH74ReeCpjr2jw9MFOsY9q/EbXSJNkSFM2mgyu38g==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2444,6 +2447,8 @@ snapshots:
     dependencies:
       quansync: 0.2.10
 
+  package-manager-detector@1.1.0: {}
+
   path-browserify@1.0.1: {}
 
   path-exists@4.0.0: {}
@@ -2492,10 +2497,10 @@ snapshots:
 
   prettier@3.5.3: {}
 
-  publint@0.3.9:
+  publint@0.3.10:
     dependencies:
       '@publint/pack': 0.1.2
-      package-manager-detector: 0.2.11
+      package-manager-detector: 1.1.0
       picocolors: 1.1.1
       sade: 1.8.1
 
