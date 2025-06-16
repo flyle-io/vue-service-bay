@@ -43,7 +43,7 @@
     "globby": "14.1.0",
     "htmlparser2": "10.0.0",
     "magic-string": "0.30.17",
-    "postcss": "8.5.4",
+    "postcss": "8.5.5",
     "postcss-scss": "4.0.9",
     "recast": "0.23.11",
     "zimmerframe": "1.1.2"
