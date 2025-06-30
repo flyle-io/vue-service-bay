@@ -37,7 +37,7 @@
     "vitest": "3.0.9"
   },
   "dependencies": {
-    "@babel/types": "7.27.6",
+    "@babel/types": "7.27.7",
     "dom-serializer": "2.0.0",
     "domhandler": "5.0.3",
     "globby": "14.1.0",
