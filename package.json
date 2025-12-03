@@ -11,6 +11,6 @@
     "@tsconfig/strictest": "2.0.8",
     "@types/node": "22.13.17",
     "prettier": "3.5.3",
-    "typescript": "5.8.3"
+    "typescript": "5.9.3"
   }
 }
