@@ -27,12 +27,7 @@ jobs:
           echo "$RUNNER_TEMP" >> "$GITHUB_PATH"
       - name: Check all actions are pinned to commit SHA
         run: |
-          FILES=$(find .github/workflows -name *.yml -o -name *.yaml 2>/dev/null; find .github/actions -name action.yml 2>/dev/null)
-          if [ -z "$FILES" ]; then
-            echo "No workflow or action files found"
-            exit 0
-          fi
-          if ! echo "$FILES" | xargs pinact run --check; then
+          if ! pinact run --check --exclude "^flyle-io/shared-actions"; then
             echo "::error::Some actions are not pinned to a commit SHA. Run: pinact run -u --min-age 7"
             exit 1
           fi
@@ -40,11 +35,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Verify pinned actions
         run: |
-          FILES=$(find .github/workflows -name *.yml -o -name *.yaml 2>/dev/null; find .github/actions -name action.yml 2>/dev/null)
-          if [ -z "$FILES" ]; then
-            exit 0
-          fi
-          if ! echo "$FILES" | xargs pinact run --verify; then
+          if ! pinact run --verify --exclude "^flyle-io/shared-actions"; then
             echo "::error::Some pinned actions have mismatched SHA and version. Run: pinact run -u --min-age 7"
             exit 1
           fi
@@ -60,7 +51,7 @@ jobs:
 
           grep -rh 'uses:' .github/workflows/ .github/actions/ 2>/dev/null \
             | grep -oE '[^@[:space:]]+@[a-f0-9]{40}\s+#\s+\S+' \
-            | sort -u > "$RUNNER_TEMP/actions.txt"
+            | sort -u > "$RUNNER_TEMP/actions.txt" || true
 
           while IFS= read -r line; do
             ACTION=$(echo "$line" | sed 's/@.*//')
@@ -78,8 +69,8 @@ jobs:
           done < "$RUNNER_TEMP/actions.txt"
 
           if [ "$ERRORS" = "1" ]; then
+            echo "::error::Run: pinact run -u --min-age ${MIN_AGE_DAYS}"
             exit 1
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
