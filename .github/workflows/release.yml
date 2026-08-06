@@ -14,6 +14,11 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write # Required for Takumi Guard OIDC
     steps:
       - name: Checkout Repo
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
@@ -27,10 +32,15 @@ jobs:
           node-version: 24
           cache: "pnpm"
 
+      - uses: flatt-security/setup-takumi-guard-npm@9a5d797c2085b6326d3a2985c08e3a114b9b88c1 # v1.1.1
+        with:
+          bot-id: "BT01KZB37HRGH0ZVT15JWSW0J636" # flyle-io
       - name: prebuild
         run: pnpm install --frozen-lockfile
 
       - name: build
+        env:
+          NPM_CONFIG_USERCONFIG: ${{ github.workspace }}/.npmrc
         run: cd packages/vue-service-bay && pnpm build
 
       - name: Remove src directory
