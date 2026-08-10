@@ -82,11 +82,11 @@ importers:
         specifier: 0.30.21
         version: 0.30.21
       postcss:
-        specifier: 8.5.25
-        version: 8.5.25
+        specifier: 8.5.26
+        version: 8.5.26
       postcss-scss:
         specifier: 4.0.9
-        version: 4.0.9(postcss@8.5.25)
+        version: 4.0.9(postcss@8.5.26)
       recast:
         specifier: 0.23.19
         version: 0.23.19
@@ -1182,8 +1182,8 @@ packages:
     resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  postcss@8.5.25:
-    resolution: {integrity: sha512-DTPx3RWSSnWyzLxQnlH0rJP+EW5ekl16ZU4/psbIhA0e53kJfdgaN5vKM+xP7yJtXVu+nfdVFmlgFDEKAe4Pyw==}
+  postcss@8.5.26:
+    resolution: {integrity: sha512-u82N74LFzG8ca+dD8puPnplTXoGH4fTPpVGuIbt36G3qvNlkvfD0lEAZSxaly3KX8TS/L1A1gsCEmvKmBcVbkQ==}
     engines: {node: ^10 || ^12 || >=14}
 
   prettier@2.8.8:
@@ -1995,7 +1995,7 @@ snapshots:
       '@vue/shared': 3.5.13
       estree-walker: 2.0.2
       magic-string: 0.30.21
-      postcss: 8.5.25
+      postcss: 8.5.26
       source-map-js: 1.2.1
 
   '@vue/compiler-ssr@3.5.13':
@@ -2583,9 +2583,9 @@ snapshots:
     dependencies:
       postcss: 8.4.31
 
-  postcss-scss@4.0.9(postcss@8.5.25):
+  postcss-scss@4.0.9(postcss@8.5.26):
     dependencies:
-      postcss: 8.5.25
+      postcss: 8.5.26
 
   postcss@8.4.31:
     dependencies:
@@ -2593,7 +2593,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  postcss@8.5.25:
+  postcss@8.5.26:
     dependencies:
       nanoid: 3.3.17
       picocolors: 1.1.1
@@ -2819,7 +2819,7 @@ snapshots:
   vite@6.2.3(@types/node@22.13.14):
     dependencies:
       esbuild: 0.25.2
-      postcss: 8.5.25
+      postcss: 8.5.26
       rollup: 4.38.0
     optionalDependencies:
       '@types/node': 22.13.14
@@ -2828,7 +2828,7 @@ snapshots:
   vite@6.2.3(@types/node@24.13.3):
     dependencies:
       esbuild: 0.25.2
-      postcss: 8.5.25
+      postcss: 8.5.26
       rollup: 4.38.0
     optionalDependencies:
       '@types/node': 24.13.3
