@@ -88,8 +88,8 @@ importers:
         specifier: 4.0.9
         version: 4.0.9(postcss@8.5.28)
       recast:
-        specifier: 0.23.19
-        version: 0.23.19
+        specifier: 0.23.21
+        version: 0.23.21
       zimmerframe:
         specifier: 1.1.4
         version: 1.1.4
@@ -1224,8 +1224,8 @@ packages:
     resolution: {integrity: sha512-VIMnQi/Z4HT2Fxuwg5KrY174U1VdUIASQVWXXyqtNRtxSr9IYkn1rsI6Tb6HsrHCmB7gVpNwX6JxPTHcH6IoTA==}
     engines: {node: '>=6'}
 
-  recast@0.23.19:
-    resolution: {integrity: sha512-T98lym7kH+pnZmRaD8yDRdaNqyUbwnbEBx0MuchrzMFOEMray4AO3ZJoTUZ5r78Ao78X/OhzW0DL8GB85w/I2w==}
+  recast@0.23.21:
+    resolution: {integrity: sha512-mFAyJq9vUbSTARLZUvAEf1z3YxlvAwswbmxMx2mPA/MSm4KmpwvwvhsH/NIrZhyOuwD60Lzyw2qh83uCbgTPYw==}
     engines: {node: '>= 4'}
 
   recast@0.23.4:
@@ -2644,7 +2644,7 @@ snapshots:
       pify: 4.0.1
       strip-bom: 3.0.0
 
-  recast@0.23.19:
+  recast@0.23.21:
     dependencies:
       ast-types: 0.16.1
       esprima: 4.0.1
