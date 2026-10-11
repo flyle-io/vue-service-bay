@@ -2,6 +2,11 @@
   "name": "vue-service-bay",
   "version": "0.3.0",
   "description": "Your One-Stop Solution for Vue.js Refactoring",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyle-io/vue-service-bay.git",
+    "directory": "packages/vue-service-bay"
+  },
   "main": "./dist/index.js",
   "type": "module",
   "types": "./dist/index.d.ts",
