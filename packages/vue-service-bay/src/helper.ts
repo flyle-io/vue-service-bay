@@ -1,8 +1,8 @@
-import { globby } from "globby";
+import { glob } from "tinyglobby";
 import { resolve } from "path";
 
 export const getAllVueFiles = async (dir: string): Promise<string[]> => {
-  const files = await globby("**/*.vue", {
+  const files = await glob("**/*.vue", {
     cwd: dir,
     ignore: ["node_modules"],
   });
