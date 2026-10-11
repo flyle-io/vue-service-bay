@@ -33,19 +33,19 @@
   "author": "baseballyama",
   "license": "MIT",
   "devDependencies": {
-    "publint": "0.3.24",
-    "vitest": "4.1.11"
+    "publint": "0.3.25",
+    "vitest": "5.0.3"
   },
   "dependencies": {
-    "@babel/types": "7.29.8",
-    "dom-serializer": "2.0.0",
-    "domhandler": "5.0.3",
+    "@babel/types": "8.0.6",
+    "dom-serializer": "3.1.1",
+    "domhandler": "6.0.1",
     "globby": "16.2.4",
-    "htmlparser2": "10.1.0",
-    "magic-string": "0.30.21",
-    "postcss": "8.5.28",
+    "htmlparser2": "12.0.0",
+    "magic-string": "1.4.3",
+    "postcss": "8.5.29",
     "postcss-scss": "4.0.9",
-    "recast": "0.23.21",
+    "recast": "0.24.0",
     "zimmerframe": "1.1.5"
   }
 }
