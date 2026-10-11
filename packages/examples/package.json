@@ -21,7 +21,7 @@
     "npm-run-all2": "9.0.3",
     "typescript": "6.0.3",
     "vite": "8.3.4",
-    "vue-service-bay": "*",
+    "vue-service-bay": "workspace:*",
     "vue-tsc": "3.3.12"
   }
 }
