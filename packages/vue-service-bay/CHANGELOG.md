@@ -1,5 +1,11 @@
 # vue-service-bay
 
+## 0.3.1
+
+### Patch Changes
+
+- [#280](https://github.com/flyle-io/vue-service-bay/pull/280) [`f3386d7`](https://github.com/flyle-io/vue-service-bay/commit/f3386d706044e9d922d6e427ffac9bdb38c5e39f) Thanks [@baseballyama](https://github.com/baseballyama)! - fix: replace `globby` with `tinyglobby` to drop the vulnerable `braces` dependency (GHSA-vfj7-8cjw-p6xm)
+
 ## 0.3.0
 
 ### Minor Changes
