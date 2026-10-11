@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/strictest/tsconfig.json",
   "compilerOptions": {
+    "rootDir": "src",
     "outDir": "dist",
     "module": "Node16",
   },
