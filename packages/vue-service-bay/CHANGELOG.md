@@ -1,5 +1,11 @@
 # vue-service-bay
 
+## 0.3.0
+
+### Minor Changes
+
+- [#275](https://github.com/flyle-io/vue-service-bay/pull/275) [`dcbc70d`](https://github.com/flyle-io/vue-service-bay/commit/dcbc70d3ddaad57e1988dd2c4b3adcd69fa0923c) Thanks [@baseballyama](https://github.com/baseballyama)! - chore: update all dependencies to latest (`@babel/types` v8, `dom-serializer` v3, `domhandler` v6, `htmlparser2` v12, `magic-string` v1, `recast` v0.24)
+
 ## 0.2.3
 
 ### Patch Changes
