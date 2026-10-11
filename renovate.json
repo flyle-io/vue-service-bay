@@ -4,8 +4,7 @@
     "config:recommended",
     ":automergePatch",
     ":timezone(Asia/Tokyo)",
-    "npm:unpublishSafe",
-    "local>flyle-io/shared-actions//renovate/default"
+    "npm:unpublishSafe"
   ],
   "dependencyDashboard": false,
   "schedule": ["after 4am and before 7am every weekday"],
