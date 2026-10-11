@@ -1,10 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
+    "config:recommended",
     ":automergePatch",
     ":timezone(Asia/Tokyo)",
-    "npm:unpublishSafe"
+    "npm:unpublishSafe",
+    "local>flyle-io/shared-actions//renovate/default"
   ],
   "dependencyDashboard": false,
   "schedule": ["after 4am and before 7am every weekday"],
