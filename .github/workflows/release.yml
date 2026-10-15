@@ -32,7 +32,7 @@ jobs:
           node-version: 24
           cache: "pnpm"
 
-      - uses: flatt-security/setup-takumi-guard-npm@6d4182745c1e474c35a023573c2612c085be45a4 # v1.2.0
+      - uses: flatt-security/setup-takumi-guard-npm@14f07d0cbc739b42a1b7c70a04c2b84cd1318ddd # v1.4.0
         with:
           bot-id: "BT01KZB37HRGH0ZVT15JWSW0J636" # flyle-io
       - name: prebuild
